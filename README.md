@@ -27,7 +27,6 @@ will be executed during test.
 
 Declare a fixture using the `FIXTURE` macro, like this:
 
-
 ```
 FIXTURE(typical_use) {
   auto a = f();
@@ -162,7 +161,7 @@ The default is level 1.
 
 # Building Lick
 
-I've so far build lick only with 3.8. It builds with no warnings with the following options:
+I've so far build lick only with clang 3.8. It builds with no warnings with the following options:
 
 ```
 --std=c++14 -Weverything
